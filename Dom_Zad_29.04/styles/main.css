@@ -1,0 +1,45 @@
+.title_h1 {
+	font-size: 24px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: 400;
+	margin: 10px 0;
+}
+.family {
+	font-family: Consolas,Menlo,"courier new",monospace;
+}
+.Example {
+	padding: 8px 20px 30px;
+    margin: 24px -20px;
+	background-color: #E7E9EB;
+	
+}
+.vnutri {
+	border-left: 4px solid #04AA6D;
+	background-color: #ffffff;
+	padding: 8px 12px;
+	font-size: 15px;
+	font-family: Consolas,Menlo,"courier new",monospace;
+}
+.button {
+	background-color: #32cd32;
+	padding: 10px;
+	margin-right: 1350px;
+	border-radius: 10px;
+	text-align: center;
+}
+.textbutton {
+	color: #ffffff;
+}
+.red {
+	color: #ff0000;
+}
+.blue {
+	color: #0000ff;
+}
+.brown {
+	color: #b22222;
+}
+.grid {
+	color: #a52a2a;
+	background-color: #f0f8ff;
+}

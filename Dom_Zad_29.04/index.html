@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dom_Zav_29.04</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./styles/main.css">
+	</head>
+	<body>
+		<div class="family">
+			<h1 class="title_h1">CSS grid-template-areas Property</h1>
+			<div class="Example">
+			<h3>Example</h3>
+				<p>
+					Make the named item "myArea" span two columns in a five columns grid layout:
+				</p>
+				<div class="vnutri">
+					<span class="brown">.item1</span> 
+					{
+					<br>
+					<span class="red">grid-area</span>: 
+					<span class="blue">myArea</span>;
+					<br>
+					}
+					<br>
+					<span class="brown">.grid-container</span> {
+					<br>
+					<span class="red">display</span>: 
+					<span class="blue">grid</span>;
+					<br>
+					<span class="red">grid-template-areas</span>: 
+					<span class="blue">"myArea myArea . . ."</span>;
+					<br>
+					}
+				</div>
+				<br>
+				<div class="button">
+					<a 
+						href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_grid-template-areas"><span class="textbutton">Try it Yourself</span>
+					</a>
+				</div>
+			</div>
+			<hr>
+			<h2>Definition and Usage</h2>
+			<p>
+				The <span class="grid">grid-template-areas</span> property specifies areas within the grid layout.
+			</p>
+			<p>
+				You can name grid items by using the grid-area property, and then reference to the name in the <span class="grid">grid-template-areas</span> property.
+			</p>
+			<p>
+				Each area is defined by apostrophes. Use a period sign to refer to a grid item with no name.
+			</p>
+			<div 
+				class="button">
+					<a 
+						href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_grid-template-areas">
+						<span class="textbutton">Show demo</span>
+					</a>
+			</div>
+		</div>
+	</body>
+</html>
